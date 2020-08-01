@@ -1,5 +1,5 @@
 # Re
-split keyboards
+Split keyboards with rotary encoder
 # Build Guide
 ## Re40
 [ビルドガイド（日本語）](Re40/Documents/buildguide_v1.0.md)
