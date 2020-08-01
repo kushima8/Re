@@ -50,15 +50,16 @@ Re40は親指で操作可能なロータリーエンコーダーを備える40�
 キーボードを光らせたいなどの場合のみ別途購入してください。
 
 |名称|数量|備考|
+|----|:---:|----|
 |LEDチップ(YS-SK6812MINI-E)|40個|
 |OLEDモジュール|2個|
 |OLED用ピンソケット|2個|
 
 ## 組み立て
 * 表面<br>
-* ![001](https://user-images.githubusercontent.com/58157342/89107650-781e5900-d46d-11ea-96f6-e60315a7e266.JPG)
+  ![001](https://user-images.githubusercontent.com/58157342/89107650-781e5900-d46d-11ea-96f6-e60315a7e266.JPG)
 * 裏面<br>
-* ![002](https://user-images.githubusercontent.com/58157342/89107651-794f8600-d46d-11ea-9983-b0428b0a17e8.JPG)
+  ![002](https://user-images.githubusercontent.com/58157342/89107651-794f8600-d46d-11ea-9983-b0428b0a17e8.JPG)
 * 1.Pro Microのはんだ付け
   * チップが載っている面が内側になるようにし、コンスルーピンヘッダを取り付けはんだ付けをしてください。
   * コンスルーピンヘッダには取り付け方向があるため気をつけてください。
