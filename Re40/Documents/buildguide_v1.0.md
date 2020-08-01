@@ -9,10 +9,10 @@ Re40は親指で操作可能なロータリーエンコーダーを備える40�
 
 ファームウェアに[qmk_firmware](https://github.com/qmk/qmk_firmware)を採用しています。<br>
 QMKにRe40のコードはまだマージされていませんのでこの[ブランチ](https://github.com/kushima8/qmk_firmware/tree/re)を使用してください。<br>
-動作確認の為にdefaultの[HEXファイル](Re40/HEX/re40_default.hex)を用意しています。<br>
+動作確認の為にdefaultの[HEXファイル](https://github.com/kushima8/Re/blob/master/Re40/HEX/re40_default.hex)を用意しています。<br>
 
 キット作成前にPro Microの書き込み環境の構築を行ってください。<br>
-ファームウェアの書き込み環境の構築については下記のサリチル酸さんのサイトを参考にしてください。
+ファームウェアの書き込み環境の構築については下記のサリチル酸さんのサイトを参考にしてください。<br>
 [（初心者編）自作キーボードにファームウェアを書き込む](https://salicylic-acid3.hatenablog.com/entry/qmk-toolbox)
 
 キー割り当ての変更方法などはご自身でお調べいただくようお願いします。<br>
