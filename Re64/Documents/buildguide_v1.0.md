@@ -4,11 +4,13 @@
 本製品は組み立てが必要なキットです。<br>
 
 Re64は親指で操作可能なロータリーエンコーダーを備え、プログラマーなどに人気の高いあの配列をベースにした60％分割キーボードです。<br>
+使用するキーキャップについては[キーレイアウト](http://www.keyboard-layout-editor.com/##@@=Esc&=!%0A1&=%2F@%0A2&=%23%0A3&=$%0A4&=%25%0A5&=%5E%0A6&_x:3.75%3B&=%2F&%0A7&=*%0A8&=(%0A9&=)%0A0&=%2F_%0A-&=+%0A%2F=&=%7C%0A%5C&=~%0A%60%3B&@_w:1.5%3B&=Tab&=Q&=W&=E&=R&=T&_x:3.75%3B&=Y&=U&=I&=O&=P&=%7B%0A%5B&=%7D%0A%5D&_w:1.5%3B&=Backspace%3B&@_w:1.75%3B&=Ctrl&=A&=S&=D&=F&=G&_x:3.75%3B&=H&=J&=K&=L&=%2F:%0A%2F%3B&=%22%0A'&_w:2.25%3B&=Enter%3B&@_w:2.25%3B&=Shift&=Z&=X&=C&=V&=B&_x:3.75%3B&=N&=M&=%3C%0A,&=%3E%0A.&=%3F%0A%2F%2F&_w:1.75%3B&=Shift&=Fn%3B&@_w:1.5%3B&=Ctrl&=Fn&_w:1.5%3B&=GUI&_x:0.75&w:1.25%3B&=Space&_w:1.25%3B&=Space&_x:3&w:1.25%3B&=Space&_w:1.5%3B&=Space&_x:0.75&w:1.5%3B&=GUI&=ALT%3B&@_y:-0.75&x:7.25%3B&=SECOND&_x:1%3B&=SECOND)を確認してください。<br>
+※中央付近に突き出した1Uはロータリーエンコーダーのブッシュスイッチです。<br>
 
 ファームウェアに[qmk_firmware](https://github.com/qmk/qmk_firmware)を採用しています。<br>
 キー割り当ての変更方法などはご自身でお調べいただくようお願いします。<br>
 
-以下の部品リストを参考に欠品がないか確認をお願いします。
+以下の部品リストを参考に欠品がないか確認をお願いします。<br>
 
 ## 部品
 
@@ -66,7 +68,7 @@ Re64は親指で操作可能なロータリーエンコーダーを備え、プ�
   * [コンスルー - Self-Made Keyboards in Japan - ](https://scrapbox.io/self-made-kbds-ja/%E3%82%B3%E3%83%B3%E3%82%B9%E3%83%AB%E3%83%BC)<br>
   ![003](https://user-images.githubusercontent.com/58157342/89108152-21b31980-d471-11ea-9df6-11b106120852.JPG)
 * 3.ファームウェアの書き込み
-  * [re64_default.hex](　)を指定してファームウェアを書き込んでください。
+  * [re64_default.hex](https://github.com/kushima8/Re/blob/master/Re64/HEX/re64_default.hex)を指定してファームウェアを書き込んでください。
   * ファームウェアの書き込み手順については下記のサリチル酸さんのサイトを参考にしてください。
   * [（初心者編）自作キーボードにファームウェアを書き込む](https://salicylic-acid3.hatenablog.com/entry/qmk-toolbox)
 * 4.LEDチップのはんだ付け(オプション)

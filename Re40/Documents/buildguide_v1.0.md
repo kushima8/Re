@@ -4,11 +4,20 @@
 本製品は組み立てが必要なキットです。<br>
 
 Re40は親指で操作可能なロータリーエンコーダーを備える40％分割キーボードです。<br>
+使用するキーキャップについては[キーレイアウト](http://www.keyboard-layout-editor.com/##@@=Esc&=Q&=W&=E&=R&=T&_x:3.25%3B&=Y&=U&=I&=O&=P&=Back%0A%0A%0A%0A%0A%0ASpace%3B&@=Tab%0A%0A%0A%0A%0A%0AControl&=A&=S&=D&=F&=G&_x:3.25%3B&=H&=J&=K&=L&=%2F:%0A%2F%3B&=%22%0A'%3B&@=Shift&=Z&=X&=C&=V&=B&_x:3.25%3B&=N&=M&=%3C%0A,&=%3E%0A.&=%3F%0A%2F%2F&=Shift%3B&@_x:3&w:1.5%3B&=RAISE&_w:1.5%3B&=Space&_x:3.25&w:1.5%3B&=Enter&_w:1.5%3B&=LOWER%3B&@_y:-0.75&x:6%3B&=TENKEY&_x:1.25%3B&=SECOND)を確認してください。<br>
+※中央付近に突き出した1Uはロータリーエンコーダーのブッシュスイッチです。<br>
 
 ファームウェアに[qmk_firmware](https://github.com/qmk/qmk_firmware)を採用しています。<br>
+QMKにRe40のコードはまだマージされていませんのでこの[ブランチ](https://github.com/kushima8/qmk_firmware/tree/re)を使用してください。<br>
+動作確認の為にdefaultの[HEXファイル](Re40/HEX/re40_default.hex)を用意しています。<br>
+
+キット作成前にPro Microの書き込み環境の構築を行ってください。<br>
+ファームウェアの書き込み環境の構築については下記のサリチル酸さんのサイトを参考にしてください。
+[（初心者編）自作キーボードにファームウェアを書き込む](https://salicylic-acid3.hatenablog.com/entry/qmk-toolbox)
+
 キー割り当ての変更方法などはご自身でお調べいただくようお願いします。<br>
 
-以下の部品リストを参考に欠品がないか確認をお願いします。
+以下の部品リストを参考に欠品がないか確認をお願いします。<br>
 
 ## 部品
 
@@ -50,8 +59,7 @@ Re40は親指で操作可能なロータリーエンコーダーを備える40�
 キーボードを光らせたいなどの場合のみ別途購入してください。
 
 |名称|数量|備考|
-|----|:---:|----|
-|LEDチップ(YS-SK6812MINI-E)|40個|
+|----|:---:|----||40個|
 |OLEDモジュール|2個|
 |OLED用ピンソケット|2個|
 
@@ -66,9 +74,7 @@ Re40は親指で操作可能なロータリーエンコーダーを備える40�
   * [コンスルー - Self-Made Keyboards in Japan - ](https://scrapbox.io/self-made-kbds-ja/%E3%82%B3%E3%83%B3%E3%82%B9%E3%83%AB%E3%83%BC)<br>
   ![003](https://user-images.githubusercontent.com/58157342/89108152-21b31980-d471-11ea-9df6-11b106120852.JPG)
 * 3.ファームウェアの書き込み
-  * [re40_default.hex](　)を指定してファームウェアを書き込んでください。
-  * ファームウェアの書き込み手順については下記のサリチル酸さんのサイトを参考にしてください。
-  * [（初心者編）自作キーボードにファームウェアを書き込む](https://salicylic-acid3.hatenablog.com/entry/qmk-toolbox)
+  * [re40_default.hex](https://github.com/kushima8/Re/blob/master/Re40/HEX/re40_default.hex)を指定してファームウェアを書き込んでください。
 * 4.LEDチップのはんだ付け(オプション)
   * LEDチップ((YS-SK6812MINI-E)はPCBを裏面にして右上から左下、反転したZ字を書くように実装してください。
   * 高い温度ではんだ付けを行うとLED破損の可能性がありますので、約270℃に設定してはんだ付けをするようにしてください。
