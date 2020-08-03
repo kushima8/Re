@@ -10,6 +10,7 @@ Re64は親指で操作可能なロータリーエンコーダーを備え、プ�
 ファームウェアに[qmk_firmware](https://github.com/qmk/qmk_firmware)を採用しています。<br>
 QMKにRe64のコードはまだマージされていませんのでこの[ブランチ](https://github.com/kushima8/qmk_firmware/tree/re)を使用してください。<br>
 動作確認の為にdefaultの[HEXファイル](https://github.com/kushima8/Re/blob/master/Re64/HEX/re64_default.hex)を用意しています。<br>
+defaultを使用した場合、左側のPro MicroとPCを接続する設定となっております。<br>
 
 キット作成前にPro Microの書き込み環境の構築を行ってください。<br>
 ファームウェアの書き込み環境の構築については下記のサリチル酸さんのサイトを参考にしてください。<br>
