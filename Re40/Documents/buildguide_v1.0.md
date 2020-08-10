@@ -9,20 +9,23 @@ Re40は親指で操作可能なロータリーエンコーダーを備える40�
 
 ファームウェアに[qmk_firmware](https://github.com/qmk/qmk_firmware)を採用しています。<br>
 QMKにRe40のコードはまだマージされていませんのでこの[ブランチ](https://github.com/kushima8/qmk_firmware/tree/re)を使用してください。<br>
-動作確認の為にdefaultの[HEXファイル](https://github.com/kushima8/Re/blob/master/Re40/HEX/re40_default.hex)を用意しています。<br>
+動作確認の為にdefaultの[HEXファイル](https://github.com/kushima8/Re/blob/master/Re40/HEX)を用意しています。<br>
 defaultを使用した場合、左側のPro MicroとPCを接続する設定となっております。<br>
 
 キット作成前にPro Microの書き込み環境の構築を行ってください。<br>
 ファームウェアの書き込み環境の構築については下記のサリチル酸さんのサイトを参考にしてください。<br>
-[（初心者編）自作キーボードにファームウェアを書き込む](https://salicylic-acid3.hatenablog.com/entry/qmk-toolbox)
+[（初心者編）自作キーボードにファームウェアを書き込む](https://salicylic-acid3.hatenablog.com/entry/qmk-toolbox)<br>
 
 キー割り当ての変更方法などはご自身でお調べいただくようお願いします。<br>
 
-GUIから簡単にキー割り当てを変更できるVIAに対応しております。<br>
+GUIから簡単にキー割り当てを変更できる[VIA](https://github.com/kushima8/Re/tree/master/Re40/VIA)に対応しております。<br>
 しかし、ロータリーエンコーダーの設定がVIA上での変更に対応していませんので、<br>
 当キットを使う上では十全ではないのであまりオススメはしません。<br>
 VIAについては下記のサリチル酸さんのサイトを参考にしてください。<br>
-[（初心者編）VIAを使ってキーマップを書き換えよう](https://salicylic-acid3.hatenablog.com/entry/via-manual)
+[（初心者編）VIAを使ってキーマップを書き換えよう](https://salicylic-acid3.hatenablog.com/entry/via-manual)<br>
+
+[プレートのデータ](https://github.com/kushima8/Re/tree/master/Re40/Plate)は公開中です。<br>
+アルミプレートなど作成したい場合にお使いください。<br>
 
 以下の部品リストを参考に欠品がないか確認をお願いします。<br>
 
@@ -97,6 +100,7 @@ VIAについては下記のサリチル酸さんのサイトを参考にして�
   * ソケットの片側はんだ付けを行い、基盤から浮いていないようであればもう片方もはんだ付けを行ってください。
 * 7.ロータリーエンコーダのはんだ付け
   * ロータリーエンコーダーの取り付け位置は内側と外側の選択式となっております。
+  * どちらを選択しても同じ動作をするように設計しています。
   ![005](https://user-images.githubusercontent.com/58157342/89124922-99d31b00-d515-11ea-992a-3565d5d9ceed.JPG)
   * 使用するつまみ、または自身の手の大きさなどを考慮し自身で内側か外側かの選択を行ってください。
   * 取り付け位置選択後、PCB表面からロータリーエンコーダを取り付け、裏面からはんだ付けを行ってください。
