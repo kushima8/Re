@@ -20,7 +20,6 @@ defaultを使用した場合、左側のPro MicroとPCを接続する設定と�
 
 GUIから簡単にキー割り当てを変更できる[VIA](https://github.com/kushima8/Re/tree/master/Re64/VIA)に対応しております。<br>
 しかし、ロータリーエンコーダーの設定がVIA上での変更に対応していませんので、<br>
-当キットを使う上では十全ではないので、あまりオススメはしません。<br>
 それでも構わないという方のみお使いください。<br>
 VIAについては下記のサリチル酸さんのサイトを参考にしてください。<br>
 [（初心者編）VIAを使ってキーマップを書き換えよう](https://salicylic-acid3.hatenablog.com/entry/via-manual)<br>
