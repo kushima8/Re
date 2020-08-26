@@ -6,6 +6,7 @@ Split keyboards with rotary encoder<br>
 # Build Guide
 ## Re40
 [ビルドガイド（日本語）](Re40/Documents/buildguide_v1.0.md)
+## Re42
 ## Re48
 ## Re61
 ## Re64
