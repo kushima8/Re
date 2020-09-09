@@ -1,5 +1,10 @@
 # Re
 Split keyboards with rotary encoder<br>
+<br>
+https://cyberdeckarsenal.booth.pm/<br>
+https://yushakobo.jp/shop/consign_re40/<br>
+https://yushakobo.jp/shop/consign_re64/<br>
+
 
 ![Re40＆Re64](https://user-images.githubusercontent.com/58157342/89754003-38164080-db15-11ea-95b6-936866eccc6a.JPG)
 
