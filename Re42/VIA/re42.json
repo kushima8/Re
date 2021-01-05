@@ -1,7 +1,7 @@
 {
-  "name": "re40",
+  "name": "re42",
   "vendorId": "0x3938",
-  "productId": "0x3430",
+  "productId": "0x3432",
   "lighting": "qmk_rgblight",
   "matrix": { "rows": 8, "cols": 6 },
   "layouts": {
