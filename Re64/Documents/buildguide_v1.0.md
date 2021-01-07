@@ -25,6 +25,8 @@ GUIから簡単にキー割り当てを変更できる[VIA](https://github.com/k
 それでも構わないという方のみお使いください。<br>
 VIAについては下記のサリチル酸さんのサイトを参考にしてください。<br>
 [（初心者編）VIAを使ってキーマップを書き換えよう](https://salicylic-acid3.hatenablog.com/entry/via-manual)<br>
+OLEDを接続していない場合は[re64_via.hex](https://github.com/kushima8/Re/blob/master/Re64/VIA/re64_via.hex)を、<br>
+接続している場合は[re64_via_oled.hex](https://github.com/kushima8/Re/blob/master/Re64/VIA/re64_via_oled.hex)を使用してください。<br>
 
 [プレートのデータ](https://github.com/kushima8/Re/tree/master/Re64/Plate)は公開中です。<br>
 アルミプレートなど作成したい場合にお使いください。<br>
@@ -130,6 +132,7 @@ VIAについては下記のサリチル酸さんのサイトを参考にして�
   * Pro Microを取り付け、PCと接続し、キースイッチとロータリーエンコーダの入力の確認を行ってください。
 * 16.OLEDモジュールの取り付け(オプション)
   * OLEDモジュールを取り付け、PCと接続し、表示されることの確認を行ってください。
+  * 左側にはレイヤーとLEDの光度情報、右側は真っ白な長方形が表示されます。
 * 17.保護プレートの取り付け
   * ロータリーエンコーダーを内側に取り付けた場合は外側用の、内側に取り付けた場合は外側用の保護プレートを使用します。
   * ロータリーエンコーダー上部に位置する箇所から飛び出ているネジにM2 8mmスペーサーを固定。
