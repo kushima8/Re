@@ -83,16 +83,16 @@ OLEDを接続していない場合は[re64_via.hex](https://github.com/kushima8/
 |OLED用ピンソケット|2個|
 
 ## 組み立て
-* Re64(Rev1)になりますが、Daihukuさんによるビルドログ動画があります。
-  作成手順が似ており、本機を作成するにあたって参考になると思いますので是非御覧ください。
-　https://www.youtube.com/watch?v=lg03LpNXRAI
+* Re64(Rev1)になりますが、Daihukuさんによるビルドログ動画があります。<br>
+ 作成手順が似ており、本機を作成するにあたって参考になると思いますので是非御覧ください。<br>
+ https://www.youtube.com/watch?v=lg03LpNXRAI
 * 表面<br>
-  ![001](https://user-images.githubusercontent.com/58157342/89108007-22977b80-d470-11ea-89ef-49e2241054d4.JPG)
+  ![001](https://user-images.githubusercontent.com/58157342/126727458-838ecdf3-6250-4c0e-a2c4-d83f5c967362.JPG)
 * 裏面<br>
-  ![002](https://user-images.githubusercontent.com/58157342/89108008-23c8a880-d470-11ea-965c-7e03fe72475a.JPG)
+  ![002](https://user-images.githubusercontent.com/58157342/126727484-47587a77-cd97-4e4a-aaa1-891d003815bd.JPG)
 * 1.ヤスリがけ
   * 製造の都合上PCBにバリが存在します。
-  ![101](https://user-images.githubusercontent.com/58157342/89108007-22977b80-d470-11ea-89ef-49e2241054d4.JPG)
+  ![101](https://user-images.githubusercontent.com/58157342/126727620-a74e5f18-52b0-4416-b06b-97fe9c07ce10.jpg)
 * 裏面<br>
   * この箇所を市販されている紙ヤスリなどで研磨してください。
 * 2.Pro Microのはんだ付け
