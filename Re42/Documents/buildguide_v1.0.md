@@ -7,6 +7,9 @@ Re42は親指で操作可能なロータリーエンコーダーを備える40�
 使用するキーキャップについては[キーレイアウト](http://www.keyboard-layout-editor.com/##@@=Esc&=Q&=W&=E&=R&=T&_x:3.25%3B&=Y&=U&=I&=O&=P&=Back%0A%0A%0A%0A%0A%0ASpace%3B&@=Tab%0A%0A%0A%0A%0A%0AControl&=A&=S&=D&=F&=G&_x:3.25%3B&=H&=J&=K&=L&=%2F:%0A%2F%3B&=%22%0A'%3B&@=Shift&=Z&=X&=C&=V&=B&_x:3.25%3B&=N&=M&=%3C%0A,&=%3E%0A.&=%3F%0A%2F%2F&=Shift%3B&@_a:7&w:1.5%3B&=&_x:1.75&a:4&w:1.5%3B&=RAISE&_w:1.25%3B&=Space&_x:3.25&w:1.25%3B&=Enter&_w:1.5%3B&=LOWER&_x:1.75&a:7&w:1.5%3B&=%3B&@_y:-0.75&x:6&a:4%3B&=TENKEY&_x:1.25%3B&=SECOND)を確認してください。<br>
 ※中央付近に突き出した1Uはロータリーエンコーダーのブッシュスイッチを表しています。<br>
 
+写真は作成見本であり商品内容と同一ではありません。<br>
+また仕様は予告なく変更されることがあります。<br>
+
 ファームウェアに[qmk_firmware](https://github.com/qmk/qmk_firmware)を採用しています。<br>
 QMKにRe42のコードはまだマージされていませんのでこの[ブランチ](https://github.com/kushima8/qmk_firmware/tree/re)を使用してください。<br>
 動作確認の為にdefaultの[HEXファイル](https://github.com/kushima8/Re/blob/master/Re42/HEX)を用意しています。<br>

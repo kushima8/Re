@@ -7,6 +7,9 @@ Re42_Rev2は親指で操作可能なロータリーエンコーダーを備え�
 使用するキーキャップについては[キーレイアウト](http://www.keyboard-layout-editor.com/##@@=Esc&=Q&=W&=E&=R&=T&_x:3.25%3B&=Y&=U&=I&=O&=P&=Back%0A%0A%0A%0A%0A%0ASpace%3B&@=Tab%0A%0A%0A%0A%0A%0AControl&=A&=S&=D&=F&=G&_x:3.25%3B&=H&=J&=K&=L&=%2F:%0A%2F%3B&=%22%0A'%3B&@=Shift&=Z&=X&=C&=V&=B&_x:3.25%3B&=N&=M&=%3C%0A,&=%3E%0A.&=%3F%0A%2F%2F&=Shift%3B&@_a:7&w:1.5%3B&=&_x:1.75&a:4&w:1.5%3B&=RAISE&_w:1.25%3B&=Space&_x:3.25&w:1.25%3B&=Enter&_w:1.5%3B&=LOWER&_x:1.75&a:7&w:1.5%3B&=%3B&@_y:-0.75&x:6&a:4%3B&=TENKEY&_x:1.25%3B&=SECOND)を確認してください。<br>
 ※中央付近に突き出した1Uはロータリーエンコーダーのブッシュスイッチを表しています。<br>
 
+写真は作成見本であり商品内容と同一ではありません。<br>
+また仕様は予告なく変更されることがあります。<br>
+
 ファームウェアに[qmk_firmware](https://github.com/qmk/qmk_firmware)を採用しています。<br>
 QMKにRe42_Rev2のコードはまだマージされていませんのでこの[ブランチ](https://github.com/kushima8/qmk_firmware/tree/re)を使用してください。<br>
 動作確認の為にdefaultの[HEXファイル](https://github.com/kushima8/Re/blob/master/Re42/HEX)を用意しています。<br>
@@ -77,7 +80,7 @@ OLEDを接続していない場合は[re42_via.hex](https://github.com/kushima8/
 
 |名称|数量|備考|
 |----|:---:|----|
-|LEDチップ(YS-SK6812MINI-E)|52個|
+|LEDチップ(YS-SK6812MINI-E)|54個|
 |OLEDモジュール|2個|
 |OLED用ピンソケット|2個|
 
@@ -86,12 +89,12 @@ OLEDを接続していない場合は[re42_via.hex](https://github.com/kushima8/
   作成手順が似ており、本機を作成するにあたって参考になると思いますので是非御覧ください。
 　https://www.youtube.com/watch?v=lg03LpNXRAI
 * 表面<br>
-  ![001](https://user-images.githubusercontent.com/58157342/89108007-22977b80-d470-11ea-89ef-49e2241054d4.JPG)
+  ![001]()
 * 裏面<br>
-  ![002](https://user-images.githubusercontent.com/58157342/89108008-23c8a880-d470-11ea-965c-7e03fe72475a.JPG)
+  ![002]()
 * 1.ヤスリがけ
   * 製造の都合上PCBにバリが存在します。
-  ![101](https://user-images.githubusercontent.com/58157342/89108007-22977b80-d470-11ea-89ef-49e2241054d4.JPG)
+  ![101]()
 * 裏面<br>
   * この箇所を市販されている紙ヤスリなどで研磨してください。
 * 2.Pro Microのはんだ付け

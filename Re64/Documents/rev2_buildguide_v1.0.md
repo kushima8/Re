@@ -7,6 +7,9 @@ Re64_Rev2は親指で操作可能なロータリーエンコーダーを備え�
 使用するキーキャップについては[キーレイアウト](http://www.keyboard-layout-editor.com/##@@=Esc&=!%0A1&=%2F@%0A2&=%23%0A3&=$%0A4&=%25%0A5&=%5E%0A6&_x:3.75%3B&=%2F&%0A7&=*%0A8&=(%0A9&=)%0A0&=%2F_%0A-&=+%0A%2F=&=%7C%0A%5C&=~%0A%60%3B&@_w:1.5%3B&=Tab&=Q&=W&=E&=R&=T&_x:3.75%3B&=Y&=U&=I&=O&=P&=%7B%0A%5B&=%7D%0A%5D&_w:1.5%3B&=Backspace%3B&@_w:1.75%3B&=Ctrl&=A&=S&=D&=F&=G&_x:3.75%3B&=H&=J&=K&=L&=%2F:%0A%2F%3B&=%22%0A'&_w:2.25%3B&=Enter%3B&@_w:2.25%3B&=Shift&=Z&=X&=C&=V&=B&_x:3.75%3B&=N&=M&=%3C%0A,&=%3E%0A.&=%3F%0A%2F%2F&_w:1.75%3B&=Shift&=Fn%3B&@_w:1.5%3B&=Ctrl&=Fn&_w:1.5%3B&=GUI&_x:0.75&w:1.25%3B&=Space&_w:1.25%3B&=Space&_x:3&w:1.25%3B&=Space&_w:1.5%3B&=Space&_x:0.75&w:1.5%3B&=GUI&=ALT%3B&@_y:-0.75&x:7.25%3B&=SECOND&_x:1%3B&=SECOND)を確認してください。<br>
 ※中央付近に突き出した1Uはロータリーエンコーダーのブッシュスイッチを表しています。<br>
 
+写真は作成見本であり商品内容と同一ではありません。<br>
+また仕様は予告なく変更されることがあります。<br>
+
 ファームウェアに[qmk_firmware](https://github.com/qmk/qmk_firmware)を採用しています。<br>
 QMKにRe64_Rev2のコードはまだマージされていませんのでこの[ブランチ](https://github.com/kushima8/qmk_firmware/tree/re)を使用してください。<br>
 動作確認の為にdefaultの[HEXファイル](https://github.com/kushima8/Re/blob/master/Re64/HEX)を用意しています。<br>
@@ -49,7 +52,7 @@ OLEDを接続していない場合は[re64_via.hex](https://github.com/kushima8/
 |M2 4mmネジ|20本|
 |M2 8mmネジ|10本|
 |M2 12mmネジ|2本|
-|ダイオード(1N4148)|66本|若干多めの場合あり|
+|ダイオード(1N4148/1N4148W)|66本/個|どちらかが同梱|
 |Kailh PCB ソケット(MX用)|64個|
 |タクトスイッチ|2個|
 |TRRSジャック(MJ-4PP-9)|2個|
