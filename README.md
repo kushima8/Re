@@ -24,7 +24,7 @@ https://yushakobo.jp/shop/consign_re64/<br>
 https://cyberdeckarsenal.booth.pm/items/2268276<br>
 [ビルドガイド（日本語）](Re64/Documents/buildguide_v1.0.md)
 ## Re64_Rev2
-Coming soon<br>
+https://shop.yushakobo.jp/products/consign_re64_rev2<br>
 [ビルドガイド（日本語）](Re64/Documents/rev2_buildguide_v1.0.md)
 ## Re93
 Coming soon<br>
