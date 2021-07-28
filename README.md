@@ -2,8 +2,9 @@
 Split keyboards with rotary encoder<br>
 <br>
 https://cyberdeckarsenal.booth.pm/<br>
-https://yushakobo.jp/shop/consign_re42/<br>
-https://yushakobo.jp/shop/consign_re64/<br>
+https://shop.yushakobo.jp/products/consign_re42_rev2<br>
+https://shop.yushakobo.jp/products/consign_re64_rev2<br>
+https://shop.yushakobo.jp/products/consign_re93<br>
 <br>
 
 ![Re40＆Re64](https://user-images.githubusercontent.com/58157342/89754003-38164080-db15-11ea-95b6-936866eccc6a.JPG)
