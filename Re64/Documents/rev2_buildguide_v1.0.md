@@ -14,8 +14,8 @@ Re64_Rev2は親指で操作可能なロータリーエンコーダーを備え�
 QMKにRe64_Rev2のコードはまだマージされていませんのでこの[ブランチ](https://github.com/kushima8/qmk_firmware/tree/re)を使用してください。<br>
 動作確認の為にdefaultの[HEXファイル](https://github.com/kushima8/Re/blob/master/Re64/HEX)を用意しています。<br>
 defaultを使用した場合、左側のPro MicroとPCを接続する設定となっております。<br>
-ただ単に右側で接続した場合はキーマップが反転します。<br>
-右側接続を行いたい場合は、右側最上段右端のキーを押下しながら接続することで対応可能です。<br>
+右側で接続した場合はキーマップが反転します。<br>
+反転せずに右側接続を行いたい場合は、右側最上段右端のキーを押下しながら接続することで対応可能です。<br>
 
 キット作成前にPro Microの書き込み環境の構築を行ってください。<br>
 ファームウェアの書き込み環境の構築については下記のサリチル酸さんのサイトを参考にしてください。<br>
@@ -23,13 +23,14 @@ defaultを使用した場合、左側のPro MicroとPCを接続する設定と�
 
 キー割り当ての変更方法などはご自身でお調べいただくようお願いします。<br>
 
-GUIから簡単にキー割り当てを変更できる[VIA](https://github.com/kushima8/Re/tree/master/Re64/VIA)に対応しております。<br>
-しかし、ロータリーエンコーダーの回転割当設定がVIA上での変更に対応していませんので、<br>
-それでも構わないという方のみお使いください。<br>
-VIAについては下記のサリチル酸さんのサイトを参考にしてください。<br>
+GUIから簡単にキー割り当てを変更できる[VIA](https://caniusevia.com/)と[Remap](https://remap-keys.app/)に対応しております。<br>
+ロータリーエンコーダの回転割り当ても含め、設定できますのでご活用ください。<br>
+VIAとRemapについては下記のサリチル酸さんのサイトを参考にしてください。<br>
 [（初心者編）VIAを使ってキーマップを書き換えよう](https://salicylic-acid3.hatenablog.com/entry/via-manual)<br>
+[（初心者編）Remapを使ってキーマップを書き換えよう](https://salicylic-acid3.hatenablog.com/entry/remap-manual)<br>
 OLEDを接続していない場合は[re64_via.hex](https://github.com/kushima8/Re/blob/master/Re64/VIA/re64_via.hex)を、<br>
 接続している場合は[re64_via_oled.hex](https://github.com/kushima8/Re/blob/master/Re64/VIA/re64_via_oled.hex)を使用してください。<br>
+[re64_via.hex](https://github.com/kushima8/Re/blob/master/Re64/VIA/re64_via.hex)と[re64_via_oled.hex](https://github.com/kushima8/Re/blob/master/Re64/VIA/re64_via_oled.hex)ではロータリーエンコーダの初期割り当てが未設定ですので、動作確認時には[Remap](https://remap-keys.app/)などで割り当て設定をしてください。<br>
 
 [プレートのデータ](https://github.com/kushima8/Re/tree/master/Re64/Plate)は公開中です。<br>
 アルミプレートなど作成したい場合にお使いください。<br>
@@ -107,6 +108,7 @@ OLEDを接続していない場合は[re64_via.hex](https://github.com/kushima8/
   * [re64_default.hex](https://github.com/kushima8/Re/blob/master/Re64/HEX/re64_default.hex)を指定してファームウェアを書き込んでください。
   * OLEDを使用する場合は'rules.mk'内の'OLED_DRIVER_ENABLE'を'yes'に書き換え、ご自身で環境を作っていただきファームウェアをコンパイルして頂くか、
   * もしくは[re64_via_oled.hex](https://github.com/kushima8/Re/blob/master/Re64/VIA/re64_via_oled.hex)を指定してファームウェアを書き込んでください。
+  * [re64_via_oled.hex](https://github.com/kushima8/Re/blob/master/Re64/VIA/re64_via_oled.hex)ではロータリーエンコーダの初期割り当てが未設定ですので、動作確認時には[Remap](https://remap-keys.app/)などで割り当て設定をしてください。
 * 4.LEDチップのはんだ付け(オプション)
   * LEDチップ((YS-SK6812MINI-E)はPCBを裏面にして右上から左下、反転したZ字を書くように実装してください。
   * その後表面にし左上から右下へZ字を書くように実装してください。

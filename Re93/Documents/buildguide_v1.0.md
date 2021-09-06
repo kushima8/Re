@@ -14,8 +14,8 @@ Re93は親指で操作可能なロータリーエンコーダーを備え、プ�
 QMKにRe93のコードはまだマージされていませんのでこの[ブランチ](https://github.com/kushima8/qmk_firmware/tree/re)を使用してください。<br>
 動作確認の為にdefaultの[HEXファイル](https://github.com/kushima8/Re/blob/master/Re93/HEX)を用意しています。<br>
 defaultを使用した場合、左側のPro MicroとPCを接続する設定となっております。<br>
-ただ単に右側で接続した場合はキーマップが反転します。<br>
-右側接続を行いたい場合は、右側最上段右端のキーを押下しながら接続することで対応可能です。<br>
+右側で接続した場合はキーマップが反転します。<br>
+反転せずに右側接続を行いたい場合は、右側最上段右端のキーを押下しながら接続することで対応可能です。<br>
 
 キット作成前にPro Microの書き込み環境の構築を行ってください。<br>
 ファームウェアの書き込み環境の構築については下記のサリチル酸さんのサイトを参考にしてください。<br>
@@ -23,12 +23,13 @@ defaultを使用した場合、左側のPro MicroとPCを接続する設定と�
 
 キー割り当ての変更方法などはご自身でお調べいただくようお願いします。<br>
 
-GUIから簡単にキー割り当てを変更できる[VIA](https://github.com/kushima8/Re/tree/master/Re93/VIA)に対応しております。<br>
-しかし、ロータリーエンコーダーの回転割当設定がVIA上での変更に対応していませんので、<br>
-それでも構わないという方のみお使いください。<br>
-VIAについては下記のサリチル酸さんのサイトを参考にしてください。<br>
+GUIから簡単にキー割り当てを変更できる[VIA](https://caniusevia.com/)と[Remap](https://remap-keys.app/)に対応しております。<br>
+ロータリーエンコーダの回転割り当ても含め、設定できますのでご活用ください。<br>
+VIAとRemapについては下記のサリチル酸さんのサイトを参考にしてください。<br>
 [（初心者編）VIAを使ってキーマップを書き換えよう](https://salicylic-acid3.hatenablog.com/entry/via-manual)<br>
+[（初心者編）Remapを使ってキーマップを書き換えよう](https://salicylic-acid3.hatenablog.com/entry/remap-manual)<br>
 こちらのファームウェア[Re93_via.hex](https://github.com/kushima8/Re/blob/master/Re93/VIA/Re93_via.hex)を使用してください。<br>
+[re93_via.hex](https://github.com/kushima8/Re/blob/master/Re93/VIA/re93_via.hex)ではロータリーエンコーダの初期割り当てが未設定ですので、動作確認時には[Remap](https://remap-keys.app/)などで割り当て設定をしてください。<br>
 
 [プレートのデータ](https://github.com/kushima8/Re/tree/master/Re93/Plate)は公開中です。<br>
 アルミプレートなど作成したい場合にお使いください。<br>
@@ -79,12 +80,12 @@ VIAについては下記のサリチル酸さんのサイトを参考にして�
  作成手順が似ており、本機を作成するにあたって参考になると思いますので是非御覧ください。<br>
  https://www.youtube.com/watch?v=lg03LpNXRAI
 * 表面<br>
-  ![001]()
+  ![001](https://user-images.githubusercontent.com/58157342/132240392-c428072e-b1f2-44e2-8f17-0395220b41cf.JPG)
 * 裏面<br>
-  ![002]()
+  ![002](https://user-images.githubusercontent.com/58157342/132240397-411b8e44-d217-4d62-8fd9-671bd481b21c.JPG)
 * 1.ヤスリがけ
   * 製造の都合上PCBにバリが存在します。
-  ![101]()
+  ![101](https://user-images.githubusercontent.com/58157342/132240406-6b3d3cd8-02b0-4a6a-aff4-5cca44efba4c.jpg)
 * 裏面<br>
   * この箇所を市販されている紙ヤスリなどで研磨してください。
 * 2.Pro Microのはんだ付け
