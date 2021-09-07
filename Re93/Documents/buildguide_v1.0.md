@@ -1,4 +1,5 @@
 # Re93_Rev1.0 ビルドガイド
+![Re93](https://user-images.githubusercontent.com/58157342/132391823-b11278e1-2abf-4fae-a9ae-b4bf19f56ce3.jpg)
 ## はじめに
 このたびはご購入いただきありがとうございます。<br>
 本製品は組み立てが必要なキットです。<br>

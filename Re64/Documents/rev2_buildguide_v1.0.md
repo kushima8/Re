@@ -1,4 +1,5 @@
 # Re64_Rev2.0 ビルドガイド
+![Re64_rev2](https://user-images.githubusercontent.com/58157342/132391649-6d02016a-f64a-4aa8-87b5-53f4af5d3301.jpg)
 ## はじめに
 このたびはご購入いただきありがとうございます。<br>
 本製品は組み立てが必要なキットです。<br>

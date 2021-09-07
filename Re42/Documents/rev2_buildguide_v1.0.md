@@ -1,4 +1,5 @@
 # Re42_Rev2.0 ビルドガイド
+![Re42_rev2](https://user-images.githubusercontent.com/58157342/132391586-8d0097e8-f51c-4d8f-8060-ecc809ec6f99.jpg)
 ## はじめに
 このたびはご購入いただきありがとうございます。<br>
 本製品は組み立てが必要なキットです。<br>
