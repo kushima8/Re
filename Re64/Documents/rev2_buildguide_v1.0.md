@@ -83,7 +83,7 @@ OLEDを接続していない場合は[re64_via.hex](https://github.com/kushima8/
 
 |名称|数量|備考|
 |----|:---:|----|
-|LEDチップ(YS-SK6812MINI-E)|72個|
+|LEDチップ(YS-SK6812MINI-E)|76個|
 |OLEDモジュール|2個|
 |OLED用ピンソケット|2個|
 
