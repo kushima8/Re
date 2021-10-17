@@ -35,6 +35,10 @@ OLEDを接続していない場合は[re64_via.hex](https://github.com/kushima8/
 [プレートのデータ](https://github.com/kushima8/Re/tree/master/Re64/Plate)は公開中です。<br>
 アルミプレートなど作成したい場合にお使いください。<br>
 
+Type-C端子搭載のiPadと接続可能です。<br>
+iPad mini 6にて簡易動作確認済みです。<br>
+一部iPadでは対応していないキーコードがありますのでご注意ください。<br>
+
 以下の部品リストを参考に欠品がないか確認をお願いします。<br>
 
 ## 部品
