@@ -15,7 +15,7 @@ https://shop.yushakobo.jp/products/consign_re93<br>
 End of distribution<br>
 [ビルドガイド（日本語）](Re42/Documents/rev2_buildguide_v1.0.md)
 ## Re64_Rev2
-End of distributionbr>
+End of distribution<br>
 [ビルドガイド（日本語）](Re64/Documents/rev2_buildguide_v1.0.md)
 ## Re93
 End of distribution<br>
