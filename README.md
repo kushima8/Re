@@ -13,13 +13,16 @@ https://shop.yushakobo.jp/products/consign_re93<br>
 
 ## Re42_Rev2
 End of distribution<br>
-[ビルドガイド（日本語）](Re42/Documents/rev2_buildguide_v1.0.md)
+[ビルドガイド（日本語）](Re42/Documents/rev2_buildguide_v1.0.md)  
+[PCB](https://github.com/kushima8/Re/tree/master/Re42/PCB)
 ## Re64_Rev2
 End of distribution<br>
-[ビルドガイド（日本語）](Re64/Documents/rev2_buildguide_v1.0.md)
+[ビルドガイド（日本語）](Re64/Documents/rev2_buildguide_v1.0.md)  
+[PCB](https://github.com/kushima8/Re/tree/master/Re64/PCB)
 ## Re93
 End of distribution<br>
-[ビルドガイド（日本語）](Re93/Documents/buildguide_v1.0.md)
+[ビルドガイド（日本語）](Re93/Documents/buildguide_v1.0.md)  
+[PCB](https://github.com/kushima8/Re/tree/master/Re93/PCB)
 ## Re40
 End of distribution<br>
 [ビルドガイド（日本語）](Re40/Documents/buildguide_v1.0.md)
