@@ -1,44 +1,57 @@
 # Re42_Rev2.0 ビルドガイド
 ![Re42_rev2](https://user-images.githubusercontent.com/58157342/132391586-8d0097e8-f51c-4d8f-8060-ecc809ec6f99.jpg)
+
+## ご購入前にお読みください
+
+本製品をご購入いただいた時点で、下記「譲渡・再販について」の内容にご同意いただいたものとみなします。
+
+### 譲渡・再販について
+
+BOOTHや遊舎工房など、作者本人が販売または委託している場所以外で購入された場合、同梱品の不足や不良品への対応など、各種サポートをいたしかねます。  
+そのため、以下のとおりお願いしております。
+
+1. 本製品（完成品・未完成品・付属部品を問わず）を、ネットオークション、フリマサービス、その他の方法により第三者へ有償で譲渡することを禁止します。
+2. 本項に反する行為を確認した場合、以後の販売をお断りする場合があります。
+
 ## はじめに
-このたびはご購入いただきありがとうございます。<br>
-本製品は組み立てが必要なキットです。<br>
+このたびはご購入いただきありがとうございます。  
+本製品は組み立てが必要なキットです。  
 
-Re42_Rev2は親指で操作可能なロータリーエンコーダーを備える40％分割キーボードです。<br>
-使用するキーキャップについては[キーレイアウト](http://www.keyboard-layout-editor.com/##@@=Esc&=Q&=W&=E&=R&=T&_x:3.25%3B&=Y&=U&=I&=O&=P&=Back%0A%0A%0A%0A%0A%0ASpace%3B&@=Tab%0A%0A%0A%0A%0A%0AControl&=A&=S&=D&=F&=G&_x:3.25%3B&=H&=J&=K&=L&=%2F:%0A%2F%3B&=%22%0A'%3B&@=Shift&=Z&=X&=C&=V&=B&_x:3.25%3B&=N&=M&=%3C%0A,&=%3E%0A.&=%3F%0A%2F%2F&=Shift%3B&@_a:7&w:1.5%3B&=&_x:1.75&a:4&w:1.5%3B&=RAISE&_w:1.25%3B&=Space&_x:3.25&w:1.25%3B&=Enter&_w:1.5%3B&=LOWER&_x:1.75&a:7&w:1.5%3B&=%3B&@_y:-0.75&x:6&a:4%3B&=TENKEY&_x:1.25%3B&=SECOND)を確認してください。<br>
-※中央付近に突き出した1Uはロータリーエンコーダーのブッシュスイッチを表しています。<br>
+Re42_Rev2は親指で操作可能なロータリーエンコーダーを備える40％分割キーボードです。  
+使用するキーキャップについては[キーレイアウト](http://www.keyboard-layout-editor.com/##@@=Esc&=Q&=W&=E&=R&=T&_x:3.25%3B&=Y&=U&=I&=O&=P&=Back%0A%0A%0A%0A%0A%0ASpace%3B&@=Tab%0A%0A%0A%0A%0A%0AControl&=A&=S&=D&=F&=G&_x:3.25%3B&=H&=J&=K&=L&=%2F:%0A%2F%3B&=%22%0A'%3B&@=Shift&=Z&=X&=C&=V&=B&_x:3.25%3B&=N&=M&=%3C%0A,&=%3E%0A.&=%3F%0A%2F%2F&=Shift%3B&@_a:7&w:1.5%3B&=&_x:1.75&a:4&w:1.5%3B&=RAISE&_w:1.25%3B&=Space&_x:3.25&w:1.25%3B&=Enter&_w:1.5%3B&=LOWER&_x:1.75&a:7&w:1.5%3B&=%3B&@_y:-0.75&x:6&a:4%3B&=TENKEY&_x:1.25%3B&=SECOND)を確認してください。  
+※中央付近に突き出した1Uはロータリーエンコーダーのブッシュスイッチを表しています。  
 
-写真は作成見本であり商品内容と同一ではありません。<br>
-また仕様は予告なく変更されることがあります。<br>
+写真は作成見本であり商品内容と同一ではありません。  
+また仕様は予告なく変更されることがあります。  
 
-ファームウェアに[qmk_firmware](https://github.com/qmk/qmk_firmware)を採用しています。<br>
-QMKにRe42_Rev2のコードはまだマージされていませんのでこの[ブランチ](https://github.com/kushima8/qmk_firmware/tree/re)を使用してください。<br>
-動作確認の為にdefaultの[HEXファイル](https://github.com/kushima8/Re/blob/master/Re42/HEX)を用意しています。<br>
-defaultを使用した場合、左側右側どちらのPro MicroでもPCを接続可能な設定となっております。<br>
+ファームウェアに[qmk_firmware](https://github.com/qmk/qmk_firmware)を採用しています。  
+QMKにRe42_Rev2のコードはまだマージされていませんのでこの[ブランチ](https://github.com/kushima8/qmk_firmware/tree/re)を使用してください。  
+動作確認の為にdefaultの[HEXファイル](https://github.com/kushima8/Re/blob/master/Re42/HEX)を用意しています。  
+defaultを使用した場合、左側右側どちらのPro MicroでもPCを接続可能な設定となっております。  
 
-キット作成前にPro Microの書き込み環境の構築を行ってください。<br>
-ファームウェアの書き込み環境の構築については下記のサリチル酸さんのサイトを参考にしてください。<br>
-[（初心者編）自作キーボードにファームウェアを書き込む](https://salicylic-acid3.hatenablog.com/entry/qmk-toolbox)<br>
+キット作成前にPro Microの書き込み環境の構築を行ってください。  
+ファームウェアの書き込み環境の構築については下記のサリチル酸さんのサイトを参考にしてください。  
+[（初心者編）自作キーボードにファームウェアを書き込む](https://salicylic-acid3.hatenablog.com/entry/qmk-toolbox)  
 
-キー割り当ての変更方法などはご自身でお調べいただくようお願いします。<br>
+キー割り当ての変更方法などはご自身でお調べいただくようお願いします。  
 
-GUIから簡単にキー割り当てを変更できる[VIA](https://caniusevia.com/)と[Remap](https://remap-keys.app/)に対応しております。<br>
-ロータリーエンコーダの回転割り当ても含め、設定できますのでご活用ください。<br>
-VIAとRemapについては下記のサリチル酸さんのサイトを参考にしてください。<br>
-[（初心者編）VIAを使ってキーマップを書き換えよう](https://salicylic-acid3.hatenablog.com/entry/via-manual)<br>
-[（初心者編）Remapを使ってキーマップを書き換えよう](https://salicylic-acid3.hatenablog.com/entry/remap-manual)<br>
-OLEDを接続していない場合は[re42_via.hex](https://github.com/kushima8/Re/blob/master/Re42_/VIA/re42_via.hex)を、<br>
-接続している場合は[re42_via_oled.hex](https://github.com/kushima8/Re/blob/master/Re42/VIA/re42_via_oled.hex)を使用してください。<br>
-[re42_via.hex](https://github.com/kushima8/Re/blob/master/Re42/VIA/re42_via.hex)と[re42_via_oled.hex](https://github.com/kushima8/Re/blob/master/Re42/VIA/re42_via_oled.hex)ではロータリーエンコーダの初期割り当てが未設定ですので、動作確認時には[Remap](https://remap-keys.app/)などで割り当て設定をしてください。<br>
+GUIから簡単にキー割り当てを変更できる[VIA](https://caniusevia.com/)と[Remap](https://remap-keys.app/)に対応しております。  
+ロータリーエンコーダの回転割り当ても含め、設定できますのでご活用ください。  
+VIAとRemapについては下記のサリチル酸さんのサイトを参考にしてください。  
+[（初心者編）VIAを使ってキーマップを書き換えよう](https://salicylic-acid3.hatenablog.com/entry/via-manual)  
+[（初心者編）Remapを使ってキーマップを書き換えよう](https://salicylic-acid3.hatenablog.com/entry/remap-manual)  
+OLEDを接続していない場合は[re42_via.hex](https://github.com/kushima8/Re/blob/master/Re42_/VIA/re42_via.hex)を、  
+接続している場合は[re42_via_oled.hex](https://github.com/kushima8/Re/blob/master/Re42/VIA/re42_via_oled.hex)を使用してください。  
+[re42_via.hex](https://github.com/kushima8/Re/blob/master/Re42/VIA/re42_via.hex)と[re42_via_oled.hex](https://github.com/kushima8/Re/blob/master/Re42/VIA/re42_via_oled.hex)ではロータリーエンコーダの初期割り当てが未設定ですので、動作確認時には[Remap](https://remap-keys.app/)などで割り当て設定をしてください。  
 
-[プレートのデータ](https://github.com/kushima8/Re/tree/master/Re42/Plate)は公開中です。<br>
-アルミプレートなど作成したい場合にお使いください。<br>
+[プレートのデータ](https://github.com/kushima8/Re/tree/master/Re42/Plate)は公開中です。  
+アルミプレートなど作成したい場合にお使いください。  
 
-Type-C端子搭載のiPadと接続可能です。<br>
-iPad mini 6にて簡易動作確認済みです。<br>
-一部iPadでは対応していないキーコードがありますのでご注意ください。<br>
+Type-C端子搭載のiPadと接続可能です。  
+iPad mini 6にて簡易動作確認済みです。  
+一部iPadでは対応していないキーコードがありますのでご注意ください。  
 
-以下の部品リストを参考に欠品がないか確認をお願いします。<br>
+以下の部品リストを参考に欠品がないか確認をお願いします。  
 
 ## 部品
 
@@ -92,19 +105,19 @@ iPad mini 6にて簡易動作確認済みです。<br>
 * Re64(Rev1)になりますが、Daihukuさんによるビルドログ動画があります。
   作成手順が似ており、本機を作成するにあたって参考になると思いますので是非御覧ください。
 　https://www.youtube.com/watch?v=lg03LpNXRAI
-* 表面<br>
+* 表面  
     ![001](https://user-images.githubusercontent.com/58157342/132239627-aca87d8e-759c-4f38-a573-f99158c84ee3.JPG)
-* 裏面<br>
+* 裏面  
     ![002](https://user-images.githubusercontent.com/58157342/132239629-e6c37105-1b58-4d1e-b477-650b65a571e5.JPG)
 * 1.ヤスリがけ
   * 製造の都合上PCBにバリが存在します。
   ![101](https://user-images.githubusercontent.com/58157342/132239632-d0964461-482e-4e51-8dfd-54431960db9a.jpg)
-* 裏面<br>
+* 裏面  
   * この箇所を市販されている紙ヤスリなどで研磨してください。
 * 2.Pro Microのはんだ付け
   * チップが載っている面が内側になるようにし、コンスルーピンヘッダを取り付けはんだ付けをしてください。
   * コンスルーピンヘッダには取り付け方向があるため気をつけてください。
-  * [コンスルー - Self-Made Keyboards in Japan - ](https://scrapbox.io/self-made-kbds-ja/%E3%82%B3%E3%83%B3%E3%82%B9%E3%83%AB%E3%83%BC)<br>
+  * [コンスルー - Self-Made Keyboards in Japan - ](https://scrapbox.io/self-made-kbds-ja/%E3%82%B3%E3%83%B3%E3%82%B9%E3%83%AB%E3%83%BC)  
   ![003](https://user-images.githubusercontent.com/58157342/89108152-21b31980-d471-11ea-9df6-11b106120852.JPG)
 * 3.ファームウェアの書き込み
   * [re42_default.hex](https://github.com/kushima8/Re/blob/master/Re42/HEX/re42_default.hex)を指定してファームウェアを書き込んでください。
@@ -116,7 +129,7 @@ iPad mini 6にて簡易動作確認済みです。<br>
   * その後表面(LED取り付け穴が上に来るように)にし右下から左上へZ字の書き順とは逆になるように実装してください。
   * 高い温度ではんだ付けを行うとLED破損の可能性がありますので、約270℃に設定してはんだ付けをするようにしてください。
   * LEDは足が欠けている箇所が左下にあるシルクのマークの位置に来るように設置し、はんだ付けを行ってください。
-  * はんだ付けが完了したら一度Pro Microを取り付け、LEDが光るかどうかテストを行ってください。<br>
+  * はんだ付けが完了したら一度Pro Microを取り付け、LEDが光るかどうかテストを行ってください。  
   ![004](https://user-images.githubusercontent.com/58157342/89107187-23c5aa00-d46a-11ea-9957-75f56849463f.jpg)
 * 5-1.ダイオードのはんだ付け(挿入実装の場合)
   * ダイオードの足を曲げ、PCB前面から取り付け、裏面からはんだ付けを行ってください。
