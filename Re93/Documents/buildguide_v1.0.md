@@ -1,45 +1,58 @@
 # Re93_Rev1.0 ビルドガイド
 ![Re93](https://user-images.githubusercontent.com/58157342/132391823-b11278e1-2abf-4fae-a9ae-b4bf19f56ce3.jpg)
+
+## ご購入前にお読みください
+
+本製品をご購入いただいた時点で、下記「譲渡・再販について」の内容にご同意いただいたものとみなします。
+
+### 譲渡・再販について
+
+BOOTHや遊舎工房など、作者本人が販売または委託している場所以外で購入された場合、同梱品の不足や不良品への対応など、各種サポートをいたしかねます。  
+そのため、以下のとおりお願いしております。
+
+1. 本製品（完成品・未完成品・付属部品を問わず）を、ネットオークション、フリマサービス、その他の方法により第三者へ有償で譲渡することを禁止します。
+2. 本項に反する行為を確認した場合、以後の販売をお断りする場合があります。
+
 ## はじめに
-このたびはご購入いただきありがとうございます。<br>
-本製品は組み立てが必要なキットです。<br>
+このたびはご購入いただきありがとうございます。  
+本製品は組み立てが必要なキットです。  
 
-Re93は親指で操作可能なロータリーエンコーダーを備え、プログラマーなどに人気の高いあの配列を踏襲した90％分割キーボードです。<br>
-使用するキーキャップについては[キーレイアウト](http://www.keyboard-layout-editor.com/##@@=%0A1&=Esc&=F1&=F2&=F3&=F4&=F5&=F6&_x:3.75%3B&=F7&=F8&=F9&=F10&=F11&=F12&=INS&=DEL&=%0A7%3B&@=%0A2&=Esc&=!%0A1&=%2F@%0A2&=%23%0A3&=$%0A4&=%25%0A5&=%5E%0A6&_x:3.75%3B&=%2F&%0A7&=*%0A8&=(%0A9&=)%0A0&=%2F_%0A-&=+%0A%2F=&=%7C%0A%5C&=~%0A%60&=%0A8%3B&@=%0A3&_w:1.5%3B&=Tab&=Q&=W&=E&=R&=T&_x:3.75%3B&=Y&=U&=I&=O&=P&=%7B%0A%5B&=%7D%0A%5D&_w:1.5%3B&=Backspace&=%0A9%3B&@=%0A4&_w:1.75%3B&=Ctrl&=A&=S&=D&=F&=G&_x:3.75%3B&=H&=J&=K&=L&=%2F:%0A%2F%3B&=%22%0A'&_w:2.25%3B&=Enter&=%0A0%3B&@=%0A5&_w:2.25%3B&=Shift&=Z&=X&=C&=V&=B&_x:3.75%3B&=N&=M&=%3C%0A,&=%3E%0A.&=%3F%0A%2F%2F&_w:1.75%3B&=Shift&_a:7%3B&=%E2%86%91&_a:4%3B&=Fn%3B&@=%0A6&_w:1.5%3B&=Ctrl&=Fn&_w:1.5%3B&=GUI&_x:0.75&w:1.25%3B&=Space&_w:1.25%3B&=Space&_x:3&w:1.25%3B&=Space&_w:1.5%3B&=Space&_x:0.75&w:1.5%3B&=GUI&=ALT&_x:0.5&a:7%3B&=%E2%86%90&=%E2%86%93&=%E2%86%92%3B&@_y:-0.75&x:8.25&a:4%3B&=SECOND&_x:1%3B&=SECOND)を確認してください。<br>
-※中央付近に突き出した1Uはロータリーエンコーダーのブッシュスイッチを表しています。<br>
+Re93は親指で操作可能なロータリーエンコーダーを備え、プログラマーなどに人気の高いあの配列を踏襲した90％分割キーボードです。  
+使用するキーキャップについては[キーレイアウト](http://www.keyboard-layout-editor.com/##@@=%0A1&=Esc&=F1&=F2&=F3&=F4&=F5&=F6&_x:3.75%3B&=F7&=F8&=F9&=F10&=F11&=F12&=INS&=DEL&=%0A7%3B&@=%0A2&=Esc&=!%0A1&=%2F@%0A2&=%23%0A3&=$%0A4&=%25%0A5&=%5E%0A6&_x:3.75%3B&=%2F&%0A7&=*%0A8&=(%0A9&=)%0A0&=%2F_%0A-&=+%0A%2F=&=%7C%0A%5C&=~%0A%60&=%0A8%3B&@=%0A3&_w:1.5%3B&=Tab&=Q&=W&=E&=R&=T&_x:3.75%3B&=Y&=U&=I&=O&=P&=%7B%0A%5B&=%7D%0A%5D&_w:1.5%3B&=Backspace&=%0A9%3B&@=%0A4&_w:1.75%3B&=Ctrl&=A&=S&=D&=F&=G&_x:3.75%3B&=H&=J&=K&=L&=%2F:%0A%2F%3B&=%22%0A'&_w:2.25%3B&=Enter&=%0A0%3B&@=%0A5&_w:2.25%3B&=Shift&=Z&=X&=C&=V&=B&_x:3.75%3B&=N&=M&=%3C%0A,&=%3E%0A.&=%3F%0A%2F%2F&_w:1.75%3B&=Shift&_a:7%3B&=%E2%86%91&_a:4%3B&=Fn%3B&@=%0A6&_w:1.5%3B&=Ctrl&=Fn&_w:1.5%3B&=GUI&_x:0.75&w:1.25%3B&=Space&_w:1.25%3B&=Space&_x:3&w:1.25%3B&=Space&_w:1.5%3B&=Space&_x:0.75&w:1.5%3B&=GUI&=ALT&_x:0.5&a:7%3B&=%E2%86%90&=%E2%86%93&=%E2%86%92%3B&@_y:-0.75&x:8.25&a:4%3B&=SECOND&_x:1%3B&=SECOND)を確認してください。  
+※中央付近に突き出した1Uはロータリーエンコーダーのブッシュスイッチを表しています。  
 
-写真は作成見本であり商品内容と同一ではありません。<br>
-また仕様は予告なく変更されることがあります。<br>
+写真は作成見本であり商品内容と同一ではありません。  
+また仕様は予告なく変更されることがあります。  
 
-ファームウェアに[qmk_firmware](https://github.com/qmk/qmk_firmware)を採用しています。<br>
-QMKにRe93のコードはまだマージされていませんのでこの[ブランチ](https://github.com/kushima8/qmk_firmware/tree/re)を使用してください。<br>
-動作確認の為にdefaultの[HEXファイル](https://github.com/kushima8/Re/blob/master/Re93/HEX)を用意しています。<br>
-defaultを使用した場合、左側のPro MicroとPCを接続する設定となっております。<br>
-右側で接続した場合はキーマップが反転します。<br>
-反転せずに右側接続を行いたい場合は、右側最上段右端のキーを押下しながら接続することで対応可能です。<br>
+ファームウェアに[qmk_firmware](https://github.com/qmk/qmk_firmware)を採用しています。  
+QMKにRe93のコードはまだマージされていませんのでこの[ブランチ](https://github.com/kushima8/qmk_firmware/tree/re)を使用してください。  
+動作確認の為にdefaultの[HEXファイル](https://github.com/kushima8/Re/blob/master/Re93/HEX)を用意しています。  
+defaultを使用した場合、左側のPro MicroとPCを接続する設定となっております。  
+右側で接続した場合はキーマップが反転します。  
+反転せずに右側接続を行いたい場合は、右側最上段右端のキーを押下しながら接続することで対応可能です。  
 
-キット作成前にPro Microの書き込み環境の構築を行ってください。<br>
-ファームウェアの書き込み環境の構築については下記のサリチル酸さんのサイトを参考にしてください。<br>
-[（初心者編）自作キーボードにファームウェアを書き込む](https://salicylic-acid3.hatenablog.com/entry/qmk-toolbox)<br>
+キット作成前にPro Microの書き込み環境の構築を行ってください。  
+ファームウェアの書き込み環境の構築については下記のサリチル酸さんのサイトを参考にしてください。  
+[（初心者編）自作キーボードにファームウェアを書き込む](https://salicylic-acid3.hatenablog.com/entry/qmk-toolbox)  
 
-キー割り当ての変更方法などはご自身でお調べいただくようお願いします。<br>
+キー割り当ての変更方法などはご自身でお調べいただくようお願いします。  
 
-GUIから簡単にキー割り当てを変更できる[VIA](https://caniusevia.com/)と[Remap](https://remap-keys.app/)に対応しております。<br>
-ロータリーエンコーダの回転割り当ても含め、設定できますのでご活用ください。<br>
-VIAとRemapについては下記のサリチル酸さんのサイトを参考にしてください。<br>
-[（初心者編）VIAを使ってキーマップを書き換えよう](https://salicylic-acid3.hatenablog.com/entry/via-manual)<br>
-[（初心者編）Remapを使ってキーマップを書き換えよう](https://salicylic-acid3.hatenablog.com/entry/remap-manual)<br>
-こちらのファームウェア[Re93_via.hex](https://github.com/kushima8/Re/blob/master/Re93/VIA/Re93_via.hex)を使用してください。<br>
-[re93_via.hex](https://github.com/kushima8/Re/blob/master/Re93/VIA/re93_via.hex)ではロータリーエンコーダの初期割り当てが未設定ですので、動作確認時には[Remap](https://remap-keys.app/)などで割り当て設定をしてください。<br>
+GUIから簡単にキー割り当てを変更できる[VIA](https://caniusevia.com/)と[Remap](https://remap-keys.app/)に対応しております。  
+ロータリーエンコーダの回転割り当ても含め、設定できますのでご活用ください。  
+VIAとRemapについては下記のサリチル酸さんのサイトを参考にしてください。  
+[（初心者編）VIAを使ってキーマップを書き換えよう](https://salicylic-acid3.hatenablog.com/entry/via-manual)  
+[（初心者編）Remapを使ってキーマップを書き換えよう](https://salicylic-acid3.hatenablog.com/entry/remap-manual)  
+こちらのファームウェア[Re93_via.hex](https://github.com/kushima8/Re/blob/master/Re93/VIA/Re93_via.hex)を使用してください。  
+[re93_via.hex](https://github.com/kushima8/Re/blob/master/Re93/VIA/re93_via.hex)ではロータリーエンコーダの初期割り当てが未設定ですので、動作確認時には[Remap](https://remap-keys.app/)などで割り当て設定をしてください。  
 
-[プレートのデータ](https://github.com/kushima8/Re/tree/master/Re93/Plate)は公開中です。<br>
-アルミプレートなど作成したい場合にお使いください。<br>
+[プレートのデータ](https://github.com/kushima8/Re/tree/master/Re93/Plate)は公開中です。  
+アルミプレートなど作成したい場合にお使いください。  
 
-Type-C端子搭載のiPadと接続可能です。<br>
-iPad mini 6にて簡易動作確認済みです。<br>
-一部iPadでは対応していないキーコードがありますのでご注意ください。<br>
+Type-C端子搭載のiPadと接続可能です。  
+iPad mini 6にて簡易動作確認済みです。  
+一部iPadでは対応していないキーコードがありますのでご注意ください。  
 
-以下の部品リストを参考に欠品がないか確認をお願いします。<br>
+以下の部品リストを参考に欠品がないか確認をお願いします。  
 
 ## 部品
 
@@ -81,22 +94,22 @@ iPad mini 6にて簡易動作確認済みです。<br>
 |2Uスタビライザー(Cherry MX互換)|2個|
 
 ## 組み立て
-* Re64(Rev1)になりますが、Daihukuさんによるビルドログ動画があります。<br>
- 作成手順が似ており、本機を作成するにあたって参考になると思いますので是非御覧ください。<br>
+* Re64(Rev1)になりますが、Daihukuさんによるビルドログ動画があります。  
+ 作成手順が似ており、本機を作成するにあたって参考になると思いますので是非御覧ください。  
  https://www.youtube.com/watch?v=lg03LpNXRAI
-* 表面<br>
+* 表面  
   ![001](https://user-images.githubusercontent.com/58157342/132240392-c428072e-b1f2-44e2-8f17-0395220b41cf.JPG)
-* 裏面<br>
+* 裏面  
   ![002](https://user-images.githubusercontent.com/58157342/132240397-411b8e44-d217-4d62-8fd9-671bd481b21c.JPG)
 * 1.ヤスリがけ
   * 製造の都合上PCBにバリが存在します。
   ![101](https://user-images.githubusercontent.com/58157342/132240406-6b3d3cd8-02b0-4a6a-aff4-5cca44efba4c.jpg)
-* 裏面<br>
+* 裏面  
   * この箇所を市販されている紙ヤスリなどで研磨してください。
 * 2.Pro Microのはんだ付け
   * チップが載っている面が内側になるようにし、コンスルーピンヘッダを取り付けはんだ付けをしてください。
   * コンスルーピンヘッダには取り付け方向があるため気をつけてください。
-  * [コンスルー - Self-Made Keyboards in Japan - ](https://scrapbox.io/self-made-kbds-ja/%E3%82%B3%E3%83%B3%E3%82%B9%E3%83%AB%E3%83%BC)<br>
+  * [コンスルー - Self-Made Keyboards in Japan - ](https://scrapbox.io/self-made-kbds-ja/%E3%82%B3%E3%83%B3%E3%82%B9%E3%83%AB%E3%83%BC)  
   ![003](https://user-images.githubusercontent.com/58157342/89108152-21b31980-d471-11ea-9df6-11b106120852.JPG)
 * 3.ファームウェアの書き込み
   * [Re93_default.hex](https://github.com/kushima8/Re/blob/master/Re93/HEX/Re93_default.hex)を指定してファームウェアを書き込んでください。
